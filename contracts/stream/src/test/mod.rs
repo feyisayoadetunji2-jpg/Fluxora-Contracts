@@ -130,6 +130,7 @@ mod architecture;
 // Issue #1870 — the documented migration path, walked and cross-checked
 // against the committed ABI inventory.
 mod migration;
+mod upgradeable;
 
 // Invariant: no success event emitted on a reverting token transfer (#1728).
 mod event_ordering_failed_transfer;
